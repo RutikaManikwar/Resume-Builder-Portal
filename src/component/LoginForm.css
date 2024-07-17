@@ -1,0 +1,74 @@
+/* Container */
+.login-form {
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Form Heading */
+  .login-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Form */
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Labels */
+  .login-form label {
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Inputs */
+  .login-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    font-size: 16px;
+    margin-bottom: 10px; /* Add space between inputs */
+    width: calc(100% - 24px); /* Calculate input width based on padding */
+  }
+  
+  /* Button */
+  .login-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  /* Link */
+  .login-form a {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  /* Align input fields in one line */
+  .login-form label,
+  .login-form input {
+    display: block;
+    width: 300px;
+  }
+  

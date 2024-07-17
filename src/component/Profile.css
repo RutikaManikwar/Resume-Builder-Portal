@@ -1,0 +1,55 @@
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Arrange elements vertically */
+}
+
+.profile-photo {
+  margin-bottom: 20px; /* Add space between photo and details */
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover;
+  border: 4px solid #fff; /* White border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  display: block; /* Ensure image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.profile-details {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.profile-details p {
+  font-size: 1.2em;
+  margin-bottom: 15px; /* Increase margin between paragraphs */
+  color: #555; /* Slightly darker text color */
+}
+
+.profile-details strong {
+  color: #333; /* Darken the color of strong text */
+}
+
+.profile-details hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Add a horizontal rule with light gray color */
+  margin: 20px 0; /* Margin above and below the horizontal rule */
+}

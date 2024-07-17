@@ -1,0 +1,13 @@
+.resume-display {
+    margin: 20px;
+  }
+  
+  .resume-display h2, .resume-display h3 {
+    color: #333;
+  }
+  
+  .resume-display p {
+    font-size: 16px;
+    color: #666;
+  }
+  
